@@ -10,19 +10,32 @@
 // console.log(3);
 // console.log(4);
 
-// HTTP Requests and status codes
+// HTTP Requests,status codes and callback
 
-const request = new XMLHttpRequest();
+const getTodos = (callback) => {
+  const request = new XMLHttpRequest();
 
-request.addEventListener("readystatechange", () => {
-//   console.log(request, request.readyState);
-if(request.readyState === 4 && request.status === 200){
-    console.log(request.responseText)
-} else if(request.readyState ===4){
-    console.log("couldn't fetch data");
-}
+  request.addEventListener("readystatechange", () => {
+    //   console.log(request, request.readyState);
+    if (request.readyState === 4 && request.status === 200) {
+      //   console.log(request.responseText);
+      const data = JSON.parse(request.responseText)
+      callback(undefined,data );
+    } else if (request.readyState === 4) {
+      //   console.log("couldn't fetch data");
+      callback("couldn't fect data", undefined);
+    }
+  });
+
+  request.open("GET", "https://jsonplaceholder.typicode.com/todos/");
+  request.send();
+};
+
+getTodos((err, data) => {
+  console.log("callback fired");
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(data);
+  }
 });
-
-request.open("GET", "https://jsonplaceholder.typicode.com/todos/");
-request.send();
-
