@@ -5,5 +5,4 @@ const sum = arr.reduce((total,num)=>{
     return total*num
 })
 
-
 console.log(sum)
