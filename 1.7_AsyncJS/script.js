@@ -19,9 +19,9 @@ const getTodos = (callback) => {
     //   console.log(request, request.readyState);
     if (request.readyState === 4 && request.status === 200) {
       //   console.log(request.responseText);
-      const data = JSON.parse(request.responseText)
-      callback(undefined,data );
-    //   change data to request.responseText to get the 
+      const data = JSON.parse(request.responseText);
+      callback(undefined, data);
+      //   change data to request.responseText to get the
     } else if (request.readyState === 4) {
       //   console.log("couldn't fetch data");
       callback("couldn't fect data", undefined);

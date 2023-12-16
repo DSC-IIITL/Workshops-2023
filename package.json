@@ -1,0 +1,15 @@
+{
+  "name": "gdsc-iiitl-workshops-2023",
+  "version": "1.0.0",
+  "description": "Repo containing code for the workshops taken by GDSC",
+  "repository": "https://github.com/DSC-IIITL/Workshops-2023.git",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "generate": "node ./gen.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.1.1"
+  }
+}

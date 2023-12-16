@@ -37,11 +37,10 @@
 //     job: 'Software Engineer'
 //   };
 //   const { name, age, ...restInfo } = person;
-  
+
 //   console.log(name);      // 'John'
 //   console.log(age);       // 30
 //   console.log(restInfo);  // { city: 'New York', job: 'Software Engineer' }
-
 
 // 3. Nested Destructuring
 
@@ -57,22 +56,12 @@
 // console.log(user); // 'John'
 // console.log(age);  // 25
 
-
 // 4. Parameter Destructuring
 
 // Object destructuring in function parameters
 function printPerson({ name, age, city }) {
-    console.log(`${name} is ${age} years old and lives in ${city}.`);
+  console.log(`${name} is ${age} years old and lives in ${city}.`);
 }
-  
-const person = { name: 'Alice', age: 25, city: 'Paris' };
-printPerson(person);    // Output: "Alice is 25 years old and lives in Paris."
-  
 
-  
-
-
-
-
-
-
+const person = { name: "Alice", age: 25, city: "Paris" };
+printPerson(person); // Output: "Alice is 25 years old and lives in Paris."

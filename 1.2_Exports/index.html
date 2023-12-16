@@ -1,22 +1,17 @@
-<!DOCTYPE html>
 <html>
-
-<body>
+  <body>
     <h1>JavaScript Modules</h1>
 
     <p id="named_export"></p>
     <p id="default_export"></p>
 
     <script type="module">
-        import { name, age } from "./person.js";
-        import message from "./message.js";
-
-        let text = "My name is " + name + ", I am " + age + ".";
-        document.getElementById("named_export").innerHTML = text;
-
-        document.getElementById("default_export").innerHTML = message();
-
+      import { name, age } from "./person.js";
+      import message from "./message.js";
+      let text = "My name is " + name + ", I am " + age + ".";
+      document.getElementById("named_export").innerHTML = text;
+      document.getElementById("default_export").innerHTML = message();
     </script>
-</body>
-
+  </body>
 </html>
+;

@@ -1,4 +1,4 @@
-const arr = [12, 34, 67, 89, 45]
+const arr = [12, 34, 67, 89, 45];
 
 // const arrCopy = arr.map(Math.sqrt)
 
@@ -7,7 +7,7 @@ const arr = [12, 34, 67, 89, 45]
 // })
 
 const arrCopy = arr.map((number) => {
-    return number*100
-})
+  return number * 100;
+});
 
-console.log(arrCopy)
+console.log(arrCopy);

@@ -14,7 +14,6 @@
 
 // arrow functions () => Special case of function expressions;
 
-
 // const yearsUntillRetirement = (birthYear, firstName) => {
 //   const Age = 2023 - birthYear;
 //   const retirement = 70 - Age;
@@ -22,5 +21,3 @@
 // };
 
 // console.log(yearsUntillRetirement(1980, "David"));
-
-

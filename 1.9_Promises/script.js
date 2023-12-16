@@ -41,7 +41,6 @@ getTodos("todos/marvel.json")
 //     console.log(err);
 //   });
 
-
 // Chaining Promises
 
 // getTodos("todos/marvel.json")
