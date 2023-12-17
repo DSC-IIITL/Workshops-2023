@@ -1,5 +1,3 @@
-# Workshops-2023
-
 Welcome to the GDSC (Google Developer Student Clubs) Advanced Javascript repository! This repository contains code and resources for the Advanced Javascript tutorial. Whether you're new to web development or looking to refresh your skills, this tutorial will help you get started.
 
 ![GDSC Web dev session - JavaScript](https://github.com/harshitagupta06/Workshops-2023/assets/119890674/dc6d79a0-351c-4251-8790-828070b929b2)
