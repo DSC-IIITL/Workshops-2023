@@ -5,4 +5,8 @@ Welcome to the GDSC (Google Developer Student Clubs) Advanced Javascript reposit
 ## Table of Contents
 - [GDSC Advanced Javascript](#gdsc-advanced-javascript-tutorial)
    - [Overview](#overview)
-
+   - [Prerequisites](#prerequisites)
+   - [Cloning the Repository](#cloning-the-repository)
+   - [Running the HTML,CSS and javascript Locally](#running-the-html-and-css-locally)
+   - [Tutorial Content](#tutorial-content)
+   - [Additional Resources](#additional-resources)
