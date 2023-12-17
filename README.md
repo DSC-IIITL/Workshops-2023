@@ -16,22 +16,8 @@ Welcome to the GDSC (Google Developer Student Clubs) Advanced Javascript reposit
 
 
 ## Overview  
-This repository serves as the base for you to learn javascript concepts in a more better way. This repository showcases and demonstrate various modern JavaScript features and concepts.
+This repository serves as the base for you to learn javascript concepts in a more better way. This repository showcases and demonstrates various modern JavaScript features and concepts.
 In this tutorial, you will learn the essential concepts such as Arrow Functions, Exports, Array functions, Destructuring,  Optional Chaining,  Special Operations,  Async JS (promises).
-
-- **Arrow Functions:** Use of concise arrow function syntax for improved readability and shorter code snippets.
-
-- **Exports:** Module exports to make code modular and reusable, facilitating better code organization.
-
-- **Array Functions:** Leveraging array functions such as `map`, `filter`, and `reduce` for efficient manipulation and processing of arrays.
-
-- **Destructuring:** Utilizing destructuring syntax to extract values from objects and arrays in a concise manner.
-
-- **Optional Chaining:** Employing optional chaining to handle nested properties and method calls more gracefully.
-
-- **Special Operations:** Implementation of special operations such as `ternary operator` and `nullish coalescing operator`.
-
-- **Async JS (Promises):** Integrating asynchronous JavaScript using Promises for handling asynchronous operations.
 
 ## Prerequisites
 
@@ -41,7 +27,7 @@ Before you begin with this tutorial, please ensure that you have the following p
 
 - A code editor of your choice installed on your computer. Popular choices include Visual Studio Code, Sublime Text, or Atom.
 
-- Before being able to run Javascript on Visual Studio Code, we need to install Visual Studio Code and NodeJS.
+- Before being able to run Javascript on Visual Studio Code, you need to install Visual Studio Code and NodeJS.
 
 
 ## Cloning the Repository
@@ -51,7 +37,7 @@ To get started with the tutorial, follow these steps to clone the repository to 
 1. **Clone the Repository**: Open your terminal or command prompt and use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/username/GDSC_BASICCSS.git
+   git https://github.com/username/Workshops-2023.git
    ```
 
    Replace `username` with your GitHub username.
@@ -78,8 +64,30 @@ After cloning the repository, you can run the HTML and CSS files locally to see 
    Node <filename>.js
    ```
 ## Tutorial Content
+Inside this repository, you will find:
 
+- **Arrow Functions:** Use of concise arrow function syntax for improved readability and shorter code snippets.
 
+- **Exports:** Module exports to make code modular and reusable, facilitating better code organization.
+
+- **Array Functions:** Leveraging array functions such as `map`, `filter`, and `reduce` for efficient manipulation and processing of arrays.
+
+- **Destructuring:** Utilizing destructuring syntax to extract values from objects and arrays in a concise manner.
+
+- **Optional Chaining:** Employing optional chaining to handle nested properties and method calls more gracefully.
+
+- **Special Operations:** Implementation of special operations such as `ternary operator` and `nullish coalescing operator`.
+
+- **Async JS (Promises):** Integrating asynchronous JavaScript using Promises for handling asynchronous operations.
+
+Feel free to explore the provided content, follow the tutorial instructions, and experiment with code to enhance your understanding.
+
+## Additional Resources
+To further enhance your skills and web development knowledge, consider exploring the following resources:
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous): The Mozilla Developer Network's comprehensive documentation.
+- [W3-schools](https://www.w3schools.com/): The famous websites to learn basics of web development.
+- [FreeCodeCamp - Javascript Tutorial](https://www.freecodecamp.org/news/asynchronous-javascript/): A free and interactive tutorial on FreeCodeCamp.
+With this tutorial and the additional resources, you'll be well on your way to becoming proficient in javascript and enhancing your web development skills. Happy coding!
 
 
 
