@@ -87,6 +87,7 @@ To further enhance your skills and web development knowledge, consider exploring
 - [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous): The Mozilla Developer Network's comprehensive documentation.
 - [W3-schools](https://www.w3schools.com/): The famous websites to learn basics of web development.
 - [FreeCodeCamp - Javascript Tutorial](https://www.freecodecamp.org/news/asynchronous-javascript/): A free and interactive tutorial on FreeCodeCamp.
+  
 With this tutorial and the additional resources, you'll be well on your way to becoming proficient in javascript and enhancing your web development skills. Happy coding!
 
 
