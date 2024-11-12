@@ -1,6 +1,6 @@
 // fetch api
 
-fetch("todos/fruits.json")
+fetch('https://jsonplaceholder.typicode.com/todos/')
   .then((response) => {
     console.log("resolved", response);
     return response.json();
