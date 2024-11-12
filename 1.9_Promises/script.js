@@ -1,57 +1,39 @@
-const getTodos = (resource) => {
-  return new Promise((resolve, reject) => {
-    const request = new XMLHttpRequest();
+console.log("Start of script");
 
-    request.addEventListener("readystatechange", () => {
-      if (request.readyState === 4 && request.status === 200) {
-        const data = JSON.parse(request.responseText);
-        resolve(data);
-        // Change data to request.responseText to get the data in non-JSON format
-      } else if (request.readyState === 4) {
-        reject("Couldn't fetch data");
-      }
-    });
+let myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    let success = true; 
 
-    request.open("GET", resource);
-    request.send();
-  });
-};
+    if (success) {
+      resolve("The operation was successful!");
+    } else {
+      reject("The operation failed!");
+    }
+  }, 2000);
+}
+);
 
-getTodos("todos/marvel.json")
-  .then((data) => {
-    console.log("promise resolved", data);
+// Handling the Promise result
+myPromise
+  .then((message) => {
+    console.log("Promise resolved:", message);
   })
-  .catch((err) => {
-    console.log(err);
+  .catch((error) => {
+    console.log("Promise rejected:", error);
   });
 
-// const getSomething = () => {
-//   return new Promise((resolve, reject) => {
-//     // fetch something
-//     resolve("some data")
-//     // reject("some error");
-//   });
-// };
+console.log("End of script");
 
-// getSomething()
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+/*
+Expected Output:
+1. Start of script
+3. End of script
+2. Promise resolved: The operation was successful!
+OR
+2. Promise rejected: The operation failed!
 
-
-// Chaining Promises
-
-// getTodos("todos/marvel.json")
-//   .then((data) => {
-//     console.log("promise resolved", data);
-//     return getTodos("todos/fruits.json");
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+Explanation:
+- The "Start of script" and "End of script" are logged first because the Promise is asynchronous.
+- After a 2-second delay, the Promise either resolves or rejects, and the appropriate message is logged.
+- The success or failure of the Promise is controlled by the `success` variable.
+*/
